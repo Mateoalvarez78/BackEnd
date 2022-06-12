@@ -1,4 +1,5 @@
-const Persona = require('./service/persona.service')
+const Persona = require('./persona.service')
+const Edad  = require('./edad.service')
 
 const test1 =  { nombre: 'A', apellido: 'C'}
 console.log("Test 1 :: ", Persona.buscarPersonaIniciales(test1))
